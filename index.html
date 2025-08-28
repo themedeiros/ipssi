@@ -1,36 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Segurança e Privacidade</title>
+<link rel="stylesheet" href="style.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-<ul class="menu-bar">
-        <a href=""><li>Firewalls</li></a>
-        <a href=""><li>VPNs</li></a>
-        <a href=""><li>Criptografia</li></a>
-        <a href=""><li>DDoS</li></a>
-        <a href=""><li>Darkweb e Segurança na Web</li></a>
-        <a href=""><li>Engenharia Social</li></a>
-        <a href=""><li>IoT</li></a>
 
-    </ul>
-    <div class="banner">
-        <video autoplay muted loop>
-            <source src="background.mp4" type="video/mp4">
-        </video>
-        <div class="content">
-            <h1>Segurança e Privacidade</h1>
-            <div class="imp">
-                <h2>Na era digital, proteger seus dados<br> é proteger a sua identidade.</h2>
-            </div>
-        </div>
+<!-- MENU -->
+<div class="hamburger">
+  <i class="fa-solid fa-bars"></i>
+</div>
+<ul class="menu-bar">
+  <a href="#firewalls"><li><i class="fa-solid fa-shield-halved"></i> Firewalls</li></a>
+  <a href="#vpns"><li><i class="fa-solid fa-user-secret"></i> VPNs</li></a>
+  <a href="#criptografia"><li><i class="fa-solid fa-lock"></i> Criptografia</li></a>
+  <a href="#ddos"><li><i class="fa-solid fa-bomb"></i> DDoS</li></a>
+  <a href="#darkweb"><li><i class="fa-solid fa-globe"></i> Dark Web</li></a>
+  <a href="#phishing"><li><i class="fa-solid fa-fish"></i> Phishing</li></a>
+  <a href="#iot"><li><i class="fa-solid fa-microchip"></i> IoT</li></a>
+  <a href="#ciberseguranca"><li><i class="fa-solid fa-user-shield"></i> Dicas</li></a>
+</ul>
+
+<!-- BANNER -->
+<div class="banner">
+  <video autoplay muted loop>
+    <source src="background.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <h1>Segurança e Privacidade</h1>
+    <div class="imp">
+      <h2>Na era digital, proteger seus dados é proteger a sua identidade.</h2>
     </div>
-    <div class="firewalls">
-        <h1>Firewalls</h1>
-        <h2>O que é?</h2>
-    </div>
+  </div>
+</div>
+
+<!-- SECTIONS -->
+<main>
+
+<!-- FIREWALLS -->
+<section id="firewalls" class="section">
+  <h1><i class="fa-solid fa-shield-halved"></i> Firewalls</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-desktop"></i><h3>Software</h3><p>Instalado no PC para monitorar acessos e conexões.</p></div>
+    <div class="card"><i class="fa-solid fa-server"></i><h3>Hardware</h3><p>Dispositivo físico que protege redes inteiras.</p></div>
+    <div class="card"><i class="fa-solid fa-shield"></i><h3>Função</h3><p>Controlar tráfego, bloquear acessos suspeitos e proteger dados.</p></div>
+  </div>
+</section>
+
+<!-- VPNs -->
+<section id="vpns" class="section">
+  <h1><i class="fa-solid fa-user-secret"></i> VPNs</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-lock"></i><h3>Privacidade</h3><p>Cria um túnel criptografado para sua navegação.</p></div>
+    <div class="card"><i class="fa-solid fa-wifi"></i><h3>Segurança</h3><p>Protege em redes públicas como Wi-Fi de cafés.</p></div>
+    <div class="card"><i class="fa-solid fa-globe"></i><h3>Acesso</h3><p>Permite acessar conteúdos restritos por região.</p></div>
+  </div>
+</section>
+
+<!-- CRIPTOGRAFIA -->
+<section id="criptografia" class="section">
+  <h1><i class="fa-solid fa-lock"></i> Criptografia</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-comment"></i><h3>Mensagens</h3><p>WhatsApp e outros apps usam criptografia ponta a ponta.</p></div>
+    <div class="card"><i class="fa-solid fa-cart-shopping"></i><h3>Compras Online</h3><p>Protege dados de cartão e informações pessoais.</p></div>
+    <div class="card"><i class="fa-solid fa-key"></i><h3>Chaves</h3><p>Transforma dados em códigos só decifráveis com chave certa.</p></div>
+  </div>
+</section>
+
+<!-- DDoS -->
+<section id="ddos" class="section">
+  <h1><i class="fa-solid fa-bomb"></i> Ataques DDoS</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-network-wired"></i><h3>Como funciona</h3><p>Rede de bots envia acessos falsos para derrubar um site.</p></div>
+    <div class="card"><i class="fa-solid fa-xmark"></i><h3>Impacto</h3><p>Torna serviços online lentos ou indisponíveis.</p></div>
+    <div class="card"><i class="fa-solid fa-shield-halved"></i><h3>Defesa</h3><p>Firewalls avançados, CDNs e monitoramento em tempo real.</p></div>
+  </div>
+</section>
+
+<!-- DARKWEB -->
+<section id="darkweb" class="section">
+  <h1><i class="fa-solid fa-globe"></i> Dark Web e Deep Web</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-layer-group"></i><h3>Deep Web</h3><p>Conteúdos não indexados, como e-mails e bancos de dados.</p></div>
+    <div class="card"><i class="fa-solid fa-user-secret"></i><h3>Dark Web</h3><p>Parte pequena da Deep Web acessada com ferramentas especiais.</p></div>
+    <div class="card"><i class="fa-solid fa-scale-balanced"></i><h3>Mitos</h3><p>Nem tudo lá é crime: também serve para anonimato legítimo.</p></div>
+  </div>
+</section>
+
+<!-- PHISHING -->
+<section id="phishing" class="section">
+  <h1><i class="fa-solid fa-fish"></i> Phishing e Engenharia Social</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-envelope"></i><h3>E-mails falsos</h3><p>Mensagens que imitam empresas para roubar dados.</p></div>
+    <div class="card"><i class="fa-solid fa-mobile-screen"></i><h3>Mensagens SMS</h3><p>Links suspeitos enviados por celular</p></div>
+    <div class="card"><i class="fa-solid fa-user-secret"></i><h3>Engenharia Social</h3><p>Explora confiança e medo das pessoas através da manipulação.</p></div>
+    <div class="card"><i class="fa-solid fa-triangle-exclamation"></i><h3>Como se proteger</h3><p>Desconfiar de links e usar autenticação em dois fatores.</p></div>
+  </div>
+</section>
+
+<!-- IoT -->
+<section id="iot" class="section">
+  <h1><i class="fa-solid fa-microchip"></i> Internet das Coisas (IoT)</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-video"></i><h3>Câmeras</h3><p>Dispositivos mal configurados podem ser invadidos.</p></div>
+    <div class="card"><i class="fa-solid fa-lightbulb"></i><h3>Lâmpadas Smart</h3><p>Também são alvos se não forem atualizadas.</p></div>
+    <div class="card"><i class="fa-solid fa-watch-apple"></i><h3>Relógios</h3><p>Armazenam dados de saúde e localização.</p></div>
+  </div>
+</section>
+
+<!-- CIBERSEGURANÇA -->
+<section id="ciberseguranca" class="section">
+  <h1><i class="fa-solid fa-user-shield"></i> Cibersegurança no Dia a Dia</h1>
+  <div class="mindmap">
+    <div class="card"><i class="fa-solid fa-key"></i><h3>Senhas</h3><p>Use senhas fortes e diferentes para cada conta.</p></div>
+    <div class="card"><i class="fa-solid fa-shield"></i><h3>2FA</h3><p>Ative autenticação em dois fatores sempre que possível.</p></div>
+    <div class="card"><i class="fa-solid fa-bug"></i><h3>Atualizações</h3><p>Mantenha apps e sistemas atualizados.</p></div>
+    <div class="card"><i class="fa-solid fa-cloud"></i><h3>Backups</h3><p>Faça cópias regulares dos seus dados.</p></div>
+  </div>
+</section>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
